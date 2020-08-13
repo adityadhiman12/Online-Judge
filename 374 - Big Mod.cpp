@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
+#define end "\n"
 using namespace std;
 
 ll exp(ll a,ll b,ll m)
@@ -25,6 +26,6 @@ int main()
 	{
 		ll r=exp(b,p,m);
 		r=r%m;
-		cout<<r<<"\n";
+		cout<<r<<endl;
 	}
 }
